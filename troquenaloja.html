@@ -1,0 +1,43 @@
+html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca de Perfume</title>
+</head>
+<body>
+    <header>
+        <h1>Política de Troca de Perfume</h1>
+    </header>
+    <section>
+        <h2>Encontrou um problema com seu perfume?</h2>
+        <p>Entendemos que às vezes as coisas não saem como esperado. Se você comprou um perfume conosco e encontrou algum problema, estamos aqui para ajudar! Seja um defeito no produto ou simplesmente não era o aroma que você esperava, nossa política de troca pode atender às suas necessidades.</p>
+    </section>
+    <section>
+        <h2>Como proceder</h2>
+        <ol>
+            <li>Verifique se o perfume está dentro do prazo de troca de 30 dias após a compra.</li>
+            <li>Mantenha o produto na embalagem original e sem uso.</li>
+            <li>Preencha o formulário abaixo para iniciar o processo de troca.</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Formulário de Troca</h2>
+        <form action="processa-troca.php" method="POST">
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" name="telefone" required><br>
+            <label for="motivo">Motivo da Troca:</label><br>
+            <textarea id="motivo" name="motivo" rows="4" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
+
+
+Esse código cria uma página simples com uma introdução à política de troca da loja, instruções sobre como proceder com a troca, e um formulário de contato para o cliente enviar suas informações e o motivo da troca. Claro, você precisará adaptar e expandir este exemplo para se adequar às especificações e estilos do seu site, assim como implementar a lógica do lado do servidor para processar as informações do formulário (indicado aqui como processa-troca.php).

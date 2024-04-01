@@ -1,11 +1,46 @@
+html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amostra Grátis de Perfume</title>
 </head>
 <body>
-    <img src="condicionador.gif" width="30%"> 
+    <header>
+        <h1>Conquiste sua Amostra Grátis de Perfume!</h1>
+    </header>
+    <main>
+        <section>
+            <p>Estamos felizes em oferecer a você a chance de experimentar nossa nova fragrância antes de seu lançamento oficial. Acreditamos no poder dos aromas para transformar momentos e queremos que você faça parte desta jornada olfativa.</p>
+        </section>
+        <section>
+            <h2>Como receber sua amostra grátis:</h2>
+            <p>Para garantir sua amostra grátis, basta preencher o formulário abaixo com suas informações de contato e endereço. As amostras são limitadas, então não perca tempo!</p>
+        </section>
+        <section>
+            <form action="solicitar-amostra.php" method="POST">
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="endereco">Endereço para Envio:</label><br>
+                <input type="text" id="endereco" name="endereco" required><br>
+                <label for="cep">CEP:</label><br>
+                <input type="text" id="cep" name="cep" required><br>
+                <input type="checkbox" id="aceite" name="aceite" required>
+                <label for="aceite">Eu concordo com os termos e condições.</label><br>
+                <input type="submit" value="Solicitar Amostra">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
+
+
+Neste exemplo, criamos uma estrutura básica de página contendo:
+
+- Um cabeçalho com uma chamada à ação.
+- Um parágrafo introdutório sobre a oferta.
+- Instruções claras sobre como receber a amostra grátis.
+- Um formulário para o visitante preencher com seus dados, incluindo nome, email, endereço para envio, e CEP. Também inclui uma caixa de seleção para aceitar termos e condições, que é importante para a conformidade com regulamentações de proteção de dados.
